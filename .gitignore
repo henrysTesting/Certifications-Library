@@ -1,0 +1,14 @@
+# Source files — kept local, not pushed
+raw/
+
+# Obsidian workspace state
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Claude Code local settings (keep project settings, ignore local overrides)
+.claude/settings.local.json
