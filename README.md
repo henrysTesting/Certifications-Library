@@ -59,3 +59,9 @@ CLAUDE.md   Vault schema — tells Claude how everything works.
 | ID | Name |
 |---|---|
 | NCA-GENL | NVIDIA Certified Associate: Generative AI LLMs |
+
+---
+
+## Acknowledgments
+
+Inspired by [Andrej Karpathy's note-taking gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f).
