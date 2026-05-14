@@ -1,7 +1,11 @@
 # Certifications Vault
 
 An Obsidian vault where Claude maintains a study wiki for professional certifications.
-You source the material. Claude does the bookkeeping.
+You source the material. Claude does the bookkeeping. 
+
+Built while studying for NCA-GENL and future certifications. 
+
+Inspired by Andrej Karpathy's LLM wiki, helping to connect ideas and create a database that suits your personal academic or professional goals. 
 
 ---
 
