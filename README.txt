@@ -22,15 +22,26 @@ CLAUDE.md       Vault schema — tells Claude how everything works.
 
 SLASH COMMANDS
 --------------
-/ingest <CERT-ID/file.md>   Process a source file into the wiki.
-/query <question>           Answer a question using the wiki.
-/lint                       Health-check the wiki for broken links and gaps.
-/new-cert <CERT-ID>         Scaffold the structure for a new certification.
+/ingest <CERT-ID/file.md>               Process a source file into the wiki.
+/query <question>                       Answer a question using the wiki.
+/question [N:<n>] [domain:<name>]       Generate a practice quiz or grade your answers.
+/lint                                   Health-check the wiki for broken links and gaps.
+/new-cert <CERT-ID>                     Scaffold the structure for a new certification.
 
 
 CURRENT CERTS
 -------------
-NCA-GENL    NVIDIA Certified Associate: Generative AI LLMs
+NCA-GENL    NVIDIA Certified Associate: Generative AI LLMs    (35 concepts, 3 sources)
+
+
+PRACTICE EXAMS
+--------------
+/question has two modes:
+
+Generate  Run /question N:10 domain:RAG to create a quiz file. Open it in Obsidian,
+          tick your answers ([x]), then run /question again.
+Grade     Scores each question against the wiki, appends explanations to the quiz
+          file, and tracks results per domain in practice-log.md.
 
 
 ADDING A NEW CERT

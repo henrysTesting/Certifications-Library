@@ -41,6 +41,7 @@ CLAUDE.md   Vault schema — tells Claude how everything works.
 |---|---|
 | `/ingest <CERT-ID/file>` | Process a source file into the wiki |
 | `/query <question>` | Answer a question using the wiki |
+| `/question [N:<n>] [domain:<name>]` | Generate a practice quiz or grade your answers |
 | `/lint` | Health-check the wiki for broken links and gaps |
 | `/new-cert <CERT-ID>` | Scaffold the structure for a new certification |
 
@@ -52,13 +53,20 @@ CLAUDE.md   Vault schema — tells Claude how everything works.
 2. Drop your source files into `raw/<CERT-ID>/`
 3. Run `/ingest <CERT-ID>/<file>`
 
+## Practice Exams
+
+`/question` has two modes:
+
+- **Generate** — run `/question N:10 domain:RAG` to create a quiz file in `wiki/<CERT-ID>/exams/`. Open it in Obsidian, tick your answers (`[x]`), then run `/question` again.
+- **Grade** — detects your answers, scores each question against the wiki, and appends explanations to the quiz file. Results are tracked in `practice-log.md` per domain.
+
 ---
 
 ## Current Certs
 
-| ID | Name |
-|---|---|
-| NCA-GENL | NVIDIA Certified Associate: Generative AI LLMs |
+| ID | Name | Concepts | Sources |
+|---|---|---|---|
+| NCA-GENL | NVIDIA Certified Associate: Generative AI LLMs | 35 | 3 |
 
 ---
 

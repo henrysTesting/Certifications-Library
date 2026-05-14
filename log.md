@@ -5,6 +5,50 @@ Format: `## [YYYY-MM-DD] <type> | <title>`
 
 ---
 
+## [2026-05-11] ingest | NVIDIA-NCA-GENL-Master-Cheat-Sheet
+
+- Source: `raw/NCA-GENL/NVIDIA-NCA-GENL-Master-Cheat-Sheet.pdf` — 68-page SkillCertPro exam prep guide; all 5 official NCA-GENL weighted domains (Core ML 30%, Data Analysis 14%, Experimentation 22%, Software Development 24%, Trustworthy AI 10%)
+- Created source summary: `wiki/NCA-GENL/sources/NVIDIA-NCA-GENL-Master-Cheat-Sheet.md`
+- Created 6 concept pages: Feature Engineering, Cross-Validation, Text Embedding Models, Model Scalability and Reliability, Data Privacy and Consent, AI Bias Minimization
+- Updated domain pages: LLM Fundamentals (sources: 1→2), Generative AI Concepts (sources: 1→2), RAG and Applications (sources: 1→2), NVIDIA AI Stack (sources: 2→3), Deployment and Optimization (sources: 2→3)
+- Updated index.md (Sources: 2→3, Concept pages: 29→35)
+
+---
+
+## [2026-05-08] query | Optimization algorithms for LLM training
+
+- User asked: "Which technique is most effective for dynamically adjusting the learning rate based on gradient variance during optimization?" (Multiple choice: SGD, RMSprop, LARS, Momentum)
+- Correct answer: **RMSprop** — dynamically adjusts learning rate based on gradient variance; most effective for non-stationary LLM objectives
+- Created concept page: `wiki/NCA-GENL/concepts/Optimization Algorithms for LLMs.md` — covers SGD, Momentum, RMSprop, Adam, LARS with update rules, advantages/limitations, comparison matrix, exam patterns, and scenario-based selection
+- Updated index.md (Concept pages: 28→29)
+
+---
+
+## [2026-05-08] query | BERTScore evaluation metric
+
+- User asked: "bertscore"
+- Created concept page: `wiki/NCA-GENL/concepts/BERTScore.md` — covers how BERTScore works (embeddings + token-level matching + F-score), comparison with BLEU/ROUGE/cosine similarity, use cases, advantages/limitations, and common exam patterns
+- Updated index.md (Concept pages: 27→28)
+
+---
+
+## [2026-05-08] query | Regularization techniques for LLM overfitting
+
+- User asked: "Which of the following strategies is most effective for mitigating the overfitting of a large language model during training?" (Multiple choice: increasing parameters, dropout, reducing batch size, smaller learning rate)
+- Correct answer: **Implementing dropout with an appropriate rate during training**
+- Created concept page: `wiki/NCA-GENL/concepts/Regularization Techniques for LLMs.md` — covers dropout, weight decay, early stopping, data augmentation, common exam misconceptions, and diagnosis strategies
+- Updated index.md (Concept pages: 26→27)
+
+---
+
+## [2026-05-08] query | Perplexity and model fitting
+
+- User asked: "When evaluating an LLM using perplexity, which is true regarding model complexity and underfitting/overfitting?"
+- Created concept page: `wiki/NCA-GENL/concepts/Perplexity and Model Fitting.md` — covers perplexity definition, train vs. test comparison, overfitting/underfitting signals, and common exam traps
+- Updated index.md (Concept pages: 25→26)
+
+---
+
 ## [2026-04-24] query | RNN fundamentals and use cases
 
 - User asked: "What is RNN? and its best use case"

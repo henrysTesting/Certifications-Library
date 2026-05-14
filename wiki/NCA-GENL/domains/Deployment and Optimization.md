@@ -1,7 +1,7 @@
 ---
 tags: [domain, deployment, optimization]
 exam: NCA-GENL
-sources: 2
+sources: 3
 ---
 
 # Deployment and Optimization
@@ -27,6 +27,9 @@ sources: 2
 - **CUDA Graph** — record + replay fixed GPU op sequences; eliminates CPU dispatch overhead for decode steps
 - **Nsight Systems / Nsight Compute** — system-level vs kernel-level GPU profiling tools
 - **nvidia-smi / DCGM** — single-node vs cluster-level GPU monitoring
+- **Model scalability** — latency vs. throughput tradeoffs; horizontal vs. vertical scaling; load balancing; auto-scaling replicas
+- **Model reliability** — concept drift (P(y|x) changes), data drift (P(x) changes); production monitoring; load testing
+- **Containerization** — Docker + Kubernetes for scalable LLM serving; HPA (Horizontal Pod Autoscaler) for GPU-metric-based scaling
 
 ## Concept Pages
 
@@ -39,8 +42,10 @@ sources: 2
 - [[FlashAttention]]
 - [[vLLM and PagedAttention]]
 - [[NVIDIA Profiling Tools]]
+- [[Model Scalability and Reliability]]
 
 ## Sources
 
 - [[GenAINotes]] — Module 8 + Domain 3 & 4 supplement
 - [[Cheat Sheet for NVIDIA GenAI Ecosystem]] — TensorRT-LLM, Megatron, FlashAttention, vLLM, profiling tools
+- [[NVIDIA-NCA-GENL-Master-Cheat-Sheet]] — Domain 3 (Experimentation, 22%); model scalability, latency/throughput, concept drift, data drift, load testing, Docker/Kubernetes

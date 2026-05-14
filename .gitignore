@@ -1,6 +1,9 @@
 # Source files — kept local, not pushed
 raw/
 
+# Personal exam data — each user keeps their own
+wiki/*/exams/
+
 # Obsidian workspace state
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json

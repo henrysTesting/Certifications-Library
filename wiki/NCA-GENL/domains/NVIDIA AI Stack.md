@@ -1,7 +1,7 @@
 ---
 tags: [domain, nvidia, tooling]
 exam: NCA-GENL
-sources: 2
+sources: 3
 ---
 
 # NVIDIA AI Stack
@@ -38,6 +38,8 @@ sources: 2
 - **NVIDIA Riva** — GPU-accelerated conversational AI SDK; ASR + NLP + TTS
 - **NVIDIA AI Enterprise** — enterprise-certified NVIDIA software bundle with support and stability guarantees
 - **DGX Cloud** — rent DGX-class compute from CSPs (Azure, GCP, Oracle)
+- **NVIDIA IndeX** — GPU-accelerated large-scale volumetric/3D data visualization
+- **NVIDIA Omniverse** — simulation and digital twin platform; Omniverse Replicator generates synthetic training data for bias mitigation
 
 ## Concept Pages
 
@@ -53,3 +55,4 @@ sources: 2
 
 - [[GenAINotes]] — Module 8 + Domain 4 supplement
 - [[Cheat Sheet for NVIDIA GenAI Ecosystem]] — full NVIDIA hardware + software ecosystem reference
+- [[NVIDIA-NCA-GENL-Master-Cheat-Sheet]] — NVIDIA Omniverse (synthetic data, digital twins), NVIDIA IndeX (3D visualization), AI Enterprise governance
